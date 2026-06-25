@@ -1,6 +1,6 @@
-# 🛍️ Mall Customer Segmentation using Clustering
+# Mall Customer Segmentation using Clustering
 
-## 📌 Project Overview
+## Project Overview
 Customer segmentation is a critical task in marketing analytics that helps businesses
 understand customer behavior and design targeted strategies.
 
@@ -10,7 +10,7 @@ algorithms are evaluated and compared to identify the most meaningful customer g
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Perform customer segmentation using clustering techniques
 - Compare multiple clustering algorithms
 - Visualize clusters using dimensionality reduction techniques
@@ -19,7 +19,7 @@ algorithms are evaluated and compared to identify the most meaningful customer g
 
 ---
 
-## 🗂 Dataset
+## Dataset
 - **Dataset Name:** Mall Customers Dataset
 - **Records:** 200 customers
 - **Features:**
@@ -32,7 +32,7 @@ algorithms are evaluated and compared to identify the most meaningful customer g
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 The following preprocessing steps were applied:
 - Removed non-informative `CustomerID` column
 - Encoded categorical variable (`Gender`) using Label Encoding
@@ -43,7 +43,7 @@ Feature scaling was essential as clustering algorithms rely on distance metrics.
 
 ---
 
-## 🧠 Algorithms Implemented
+## Algorithms Implemented
 The following clustering techniques were applied and compared:
 
 - **K-Means Clustering**
@@ -52,7 +52,7 @@ The following clustering techniques were applied and compared:
 
 ---
 
-## 📉 Model Evaluation
+## Model Evaluation
 Since clustering is an unsupervised task, **Silhouette Score** was used for evaluation.
 
 | Algorithm       | Silhouette Score |
@@ -66,7 +66,7 @@ poorly due to overlapping data distributions.
 
 ---
 
-## 📊 Dimensionality Reduction & Visualization
+## Dimensionality Reduction & Visualization
 To visualize high-dimensional data, the following techniques were used:
 
 - **PCA (Principal Component Analysis)** – Linear dimensionality reduction
@@ -81,7 +81,7 @@ To visualize high-dimensional data, the following techniques were used:
 
 ---
 
-## 💼 Business Insights
+## Business Insights
 The clustering results reveal distinct customer segments such as:
 - **High Income – High Spending:** Target customers for premium offerings
 - **High Income – Low Spending:** Upsell and engagement opportunity
@@ -93,7 +93,7 @@ and personalized promotions.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 Mall-Customer-Segmentation/
 │
@@ -114,7 +114,7 @@ Mall-Customer-Segmentation/
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Install Dependencies
 ```
@@ -126,14 +126,14 @@ pip install -r requirements.txt
 jupyter notebook notebooks/Mall_Customer_Segmentation.ipynb
 ```
 
-## 📤 Output
+## Output
 - **Customer_Segments.csv**  
   Contains the original customer dataset along with the assigned cluster label
   for each customer based on K-Means clustering.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Perform feature selection to improve cluster separation
 - Tune DBSCAN parameters using k-distance plots
 - Apply clustering only on behavioral features (income and spending score)
@@ -141,7 +141,7 @@ jupyter notebook notebooks/Mall_Customer_Segmentation.ipynb
 
 ---
 
-## 🧑‍💻 Author
+## Author
 **Chakradhar Peddavenkatagari**  
 
 Aspiring AI Engineer
